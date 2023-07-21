@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="argsdict",
-    version="0.0.1",
+    version="1.0.0",
     author="Julio Cabria",
     author_email="juliocabria@tutanota.com",
     maintainer="Julio Cabria",
