@@ -1,13 +1,20 @@
 # argsdict
 *Simple command-line argument parser.*
+```
+$ python example.py John Smith --age=30 --married
+```
+> example.py
 ```python
-$ python args.py John Smith --age=30 --married
-
 from argsdict import args
 
-arg = args(["name", "surname"])
->> {"name": "John",
-    "surname": "Smith",
-    "--age": "30",
-    "--married": True}
+dictionary = args(['name', 'surname'])
+```
+> dictionary
+```json
+{
+  "name": "John",
+  "surname": "Smith",
+  "--age": "30",
+  "--married": true
+}
 ```
